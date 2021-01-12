@@ -112,7 +112,7 @@ class RetirementCalcTest {
 
         val appCompatButton = onView(
             allOf(
-                withId(R.id.calculateButton), withText("Calculate"),
+                withId(R.id.calculateButton), withText("Calculate retirement"),
                 childAtPosition(
                     childAtPosition(
                         withId(android.R.id.content),
